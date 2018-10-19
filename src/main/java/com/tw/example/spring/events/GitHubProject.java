@@ -1,25 +1,22 @@
-package com.tw.springboot28m.mcourse.events;
+package com.tw.example.spring.events;
 
-import javax.persistence.*;
-import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
-public class GitHubProject implements Serializable {
+public class GitHubProject {
 
     @Id
     @GeneratedValue
     private Long id;
 
-
     private String orgName;
 
     @Column(unique = true)
     private String repoName;
-
-    public GitHubProject(String orgName, String repoName) {
-        this.orgName = orgName;
-        this.repoName = repoName;
-    }
 
     public Long getId() {
         return id;

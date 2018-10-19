@@ -1,4 +1,4 @@
-package com.tw.springboot28m.mcourse;
+package com.tw.example.spring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
