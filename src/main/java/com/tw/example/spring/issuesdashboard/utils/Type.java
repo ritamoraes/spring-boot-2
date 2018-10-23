@@ -23,7 +23,9 @@ public enum Type {
     CONVERTED_NOTE_TO_ISSUE("converted_note_to_issue"),
     MOVED_COLUMNS_IN_PROJECT("moved_columns_in_project"),
     COMMENT_DELETED("comment_deleted"),
-    REVIEW_REQUESTED("review_resquested");
+    REVIEW_REQUESTED("review_resquested"),
+    UNLABELED("unlabeled"),
+    LABELED("labeled");
 
     private String type;
 
