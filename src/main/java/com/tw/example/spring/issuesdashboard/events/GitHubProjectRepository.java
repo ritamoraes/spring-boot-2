@@ -1,4 +1,4 @@
-package com.tw.example.spring.events;
+package com.tw.example.spring.issuesdashboard.events;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
